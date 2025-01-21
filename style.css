@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 2px solid red;
+}
+
+.nav {
+    padding: 10px;
+    background-color: blue;
+}
+
+.news-paper {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.list {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.list:hover {
+    background-color: brown;
+}
