@@ -6,14 +6,17 @@
 
 header {
     border-bottom: 2px solid red;
+    margin: 3px;
+        padding: 10px;
+        font-size: small;
 }
 
 .nav {
-    padding: 10px;
-    background-color: blue;
+    padding: 30px;
+        background-color: blue;
 }
 
-.news-paper {
+.list-item {
     display: flex;
     justify-content: space-between;
     color: white;
@@ -27,4 +30,78 @@ header {
 
 .list:hover {
     background-color: brown;
+}
+.cont1 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    background-color: azure;
+    padding: 10px;
+}
+
+.hot-topic-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-topic {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.hot-topic img {
+    height: 30px;
+}
+
+span {
+    padding: 5px;
+}
+
+.search-box form {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: white;
+    margin: 20px;
+}
+
+.search-box1 {
+    height: 2rem;
+}
+
+.search-icon {
+    width: 20px;
+}
+
+.search-box2 {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: brown;
+    font-size: large;
+}
+
+.search-box1 span {
+    vertical-align: middle;
+}
+
+.search-box2::placeholder {
+    color: grey;
+}
+
+.headingfirst {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.headingfirst:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.img1 {
+    height: 900px;
+    padding: 60px;
 }
