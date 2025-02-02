@@ -1,284 +1,357 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
-    --primary-color: #ff0000;
-    --secondary-color: blue;
+  --primary-color: #ff0000;
+  --secondary-color: blue;
 }
 
 header {
-    border-bottom: 2px solid red;
-    margin: 3px;
-        padding: 10px;
-        font-size: small;
+  border-bottom: 2px solid red;
+  margin: 3px;
+  padding: 10px;
+  font-size: small;
 }
 
 .nav {
-    padding: 30px;
-        background-color: var(--secondary-color);
-            position: sticky;
-            top: 0;
+  padding: 30px;
+  background-color: var(--secondary-color);
+  position: sticky;
+  top: 0;
 }
 
 .list-item {
-    display: flex;
-    justify-content: space-between;
-    color: white;
-
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
 
 .list {
-    list-style-type: none;
-    cursor: pointer;
+  list-style-type: none;
+  cursor: pointer;
 }
 
 .list:hover {
-    background-color: brown;
+  background-color: brown;
 }
 .cont1 {
-    display: grid;
-    grid-template-columns: 80% 20%;
-    background-color: azure;
-    padding: 10px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  background-color: azure;
+  padding: 10px;
 }
 
 .hot-topic-list {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hot-topic {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
 }
 
 .hot-topic img {
-    height: 30px;
+  height: 30px;
 }
 
 span {
-    padding: 5px;
+  padding: 5px;
 }
 
 .search-box form {
-    border: 2px solid black;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 20px;
-    background-color: white;
-    margin: 20px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
 }
 
 .search-box1 {
-    height: 2rem;
+  height: 2rem;
 }
 
 .search-icon {
-    width: 20px;
+  width: 20px;
 }
 
 .search-box2 {
-    border: none;
-    outline: none;
-    background-color: transparent;
-    color: brown;
-    font-size: large;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: brown;
+  font-size: large;
 }
 
 .search-box1 span {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .search-box2::placeholder {
-    color: grey;
+  color: grey;
 }
 
 .headingfirst {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
 }
 
 .headingfirst:hover {
-    color: var(--secondary-color);
-        cursor: pointer;
-    }
-    
-    .img1 {
-        height: 700px;
-        }
-        
-        .second {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-        }
-        
-        .icon1 {
-            display: flex;
-            align-items: center;
-        }
-        
-        .img1-icon {
-            height: 40px;
-            width: 30px;
-        }
-        
-        .img2-icon {
-            height: 20px;
-            width: 20px;
-        }
-        
-        .img3-icon {
-            height: 20px;
-            width: 30px;
-        }
-        
-        footer {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-        }
-        
-        h3 {
-            color: var(--secondary-color);
-        }
-        
-        li {
-            list-style-type: none;
-            cursor: pointer;
-            padding: 0, 40px;
-        }
-        
-        .second-ft {
-            background-color: gainsboro;
-            display: flex;
-            padding: 30px;
-            text-align: center;
-            border-right: 3px solid grey;
-        }
-        
-        .img-footer2 {
-            height: 20px;
-        }
-        
-        .heading-1 {
-            font-size: 20px;
-        }
-        
-        .heading2 {
-            font-size: 20px;
-        }
-        
-        .first {
-            padding: 30px;
-        }
-        
-        .toBeGrid {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            padding: 10px;
-            gap: 2rem;
-        }
-        
-        .toBeGrid img {
-            /* padding-left: 200px; */
-            height: 200px;
-            width: 300px;
-        }
-        
-        .a1 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        }
-        
-        .a1 img {
-            height: 250px;
-            /* width: 200px; */
-            /* padding: 20px; */
-        }
-        
-        .a1 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        }
-        
-        .a2 img {
-            height: 200px;
-            /* width: 200px; */
-            /* padding: 20px; */
-        }
-        
-        .a2 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
-        
-        .a3 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
-        
-        .a3 img {
-            height: 200px;
-            /* width: 200px; */
-            /* padding: 20px; */
-        }
-        
-        .a4 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
-        
-        .a4 img {
-            height: 200px;
-            /* color: rgba(117, 117, 245, 0.668); */
-        
-        }
-        
-        .post img {
-            /* display: none; */
-            padding-left: 50px;
-        }
-        
-        .III {
-            display: flex;
-            justify-content: left;
-            align-items: center;
-            padding: 2rem;
-            gap: 25px;
-            background-color: blueviolet;
-        }
-        
-        .IV {
-            display: flex;
-            gap: 15px;
-        
-        }
-        
-        .heading-2 {
-            color: var(--secondary-color);
-            font-size: 30px;
-            padding: 10px;
-        }
-        
-        .sect-4 {
-            background-color: blueviolet;
-        }
-        
-        .ls-image {
-            position: relative;
-            display: flex;
-            justify-content: center;
-        }
-        
-        .ls-image p {
-            position: absolute;
-            bottom: 10px;
-            color: white
-        }
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.img1 {
+  height: 700px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.icon1 {
+  display: flex;
+  align-items: center;
+}
+
+.img1-icon {
+  height: 40px;
+  width: 30px;
+}
+
+.img2-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.img3-icon {
+  height: 20px;
+  width: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+h3 {
+  color: var(--secondary-color);
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 0, 40px;
+}
+
+.second-ft {
+  background-color: gainsboro;
+  display: flex;
+  padding: 30px;
+  text-align: center;
+  border-right: 3px solid grey;
+}
+
+.img-footer2 {
+  height: 20px;
+}
+
+.heading-1 {
+  font-size: 20px;
+}
+
+.heading2 {
+  font-size: 20px;
+}
+
+.first {
+  padding: 30px;
+}
+
+.toBeGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  gap: 2rem;
+}
+
+.toBeGrid img {
+  /* padding-left: 200px; */
+  height: 200px;
+  width: 300px;
+}
+
+.a1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.a1 img {
+  height: 250px;
+  /* width: 200px; */
+  /* padding: 20px; */
+}
+
+.a1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.a2 img {
+  height: 200px;
+  /* width: 200px; */
+  /* padding: 20px; */
+}
+
+.a2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.a3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.a3 img {
+  height: 200px;
+  /* width: 200px; */
+  /* padding: 20px; */
+}
+
+.a4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.a4 img {
+  height: 200px;
+  /* color: rgba(117, 117, 245, 0.668); */
+}
+
+.post img {
+  /* display: none; */
+  padding-left: 50px;
+}
+
+.III {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 2rem;
+  gap: 25px;
+  background-color: blueviolet;
+}
+
+.IV {
+  display: flex;
+  gap: 15px;
+}
+
+.heading-2 {
+  color: var(--secondary-color);
+  font-size: 30px;
+  padding: 10px;
+}
+
+.sect-4 {
+  background-color: blueviolet;
+}
+
+.toBeGrid img {
+    display: flex;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+.toBeGrid p{
+    display: flex;
+  position: relative;
+  bottom: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: pink;
+}
+.a1 img{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center; 
+}
+.a1 p{
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: pink;   
+}
+.a1 button{
+    /* display: flex; */
+    position: relative;
+    bottom: 240px;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    color: pink;  
+    left: 120px; 
+}
+.a2 img{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center; 
+}
+.a2 p{
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: pink;   
+}
+.a3 img{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center; 
+}
+.a3 p{
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: pink;   
+}
+.a4 img{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center; 
+}
+.a4 p{
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: pink;   
+
+}
